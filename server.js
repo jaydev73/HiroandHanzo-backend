@@ -23,7 +23,7 @@ app.use(json())
 
 
 //const BASE_URL = `https://api.cloudinary.com/v1_1/${process.env.CLOUD_NAME}/resources/image`;
-const BASE_URL = `https://api.cloudinary.com/v1_1/${config.CLOUD_NAME}`;
+const BASE_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}`;
 const auth = {
     
     username: config.API_KEY,
