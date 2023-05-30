@@ -58,5 +58,5 @@ app.get('/photos', async (req, res) => {
 
 
 
-const PORT = 7010;
-app.listen(process.env.PORT, console.log(`Listening on port: ${PORT}`))
+
+app.listen(process.env.PORT, console.log(`Listening on port: ${process.env.PORT}`))
